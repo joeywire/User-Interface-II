@@ -1,7 +1,7 @@
 /* Standard Formatting */
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
@@ -26,6 +26,9 @@ h1, h2, h3, h4, h5, h6 {
     }
     h2{
         font-size: 4rem;
+    }
+    h4 {
+        font-size: 2rem;
     }
 
 a {
@@ -78,8 +81,16 @@ header p {
 .home_projects {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 2% 0;
+    text-align: left;
 }
 
-.home_projects p, .home_projects img{
-    width: 15%;
+.home_projects div, .home_projects img{
+    width: 18%;
 }
+
+.home_projects img {
+    height: 100%;
+}
+
