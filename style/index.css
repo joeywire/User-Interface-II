@@ -94,3 +94,28 @@ header p {
     height: 100%;
 }
 
+.project_list h4 {
+    text-decoration: underline;
+    padding: 2% 0;
+}
+.project_list ul {
+    list-style-type: square;
+}
+
+/* ----------------------- Footer ___________________________*/
+
+footer {
+    height: 15vh;
+    background: grey;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+footer button {
+    display: inline-block; 
+    width: 15%; 
+    font-size: 2rem;
+    padding: 2% 0; 
+    border-radius: 10px; 
+}
