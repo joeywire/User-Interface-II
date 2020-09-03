@@ -37,6 +37,13 @@ a {
     font-size: 2rem;
 }
 
+img {
+    filter: grayscale(70%);
+}
+
+img:hover {
+    filter: none;
+}
 /* ------------------- Header ------------------- */
 
 .title {
@@ -60,7 +67,14 @@ header nav a {
     color: white;
     text-decoration: underline;
     text-decoration-color: gold;
+    transition: 1s;
 }
+    header nav a:hover {
+        color: black; 
+        background: white; 
+        border: 2px solid gold;
+        text-decoration-color: darkgrey;
+    }
 
 .subtitle {
     margin: 1% auto;
@@ -115,20 +129,23 @@ header p {
 footer {
     height: 15vh;
     background: grey;  
+    
+}
+
+.footer_social {
     display: flex; 
     justify-content: center;
     align-items: center;
 }
 
 footer a {
-    display: inline-block; 
-    width: 15%; 
-    font-size: 2rem;
-    padding: 2% 0; 
-    border-radius: 10px; 
-    background: black; 
-    color: white;
-    text-align: center; 
-    text-decoration: underline; 
-    text-decoration-color: gold;
+    display: flex;
+    height: 15vh;
+    margin: 0 1%
+}
+
+.footer_social a img {
+    object-fit: contain;
+    width: 70%;
+    margin: 0 auto;
 }
