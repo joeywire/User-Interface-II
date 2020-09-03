@@ -40,8 +40,9 @@ a {
 /* ------------------- Header ------------------- */
 
 .title {
-    margin: 3% auto 1.5%;
+    margin: 0 auto 1.5%;
     text-align: center;
+    padding-top: 1%;
 }
 
 header nav {
@@ -54,16 +55,23 @@ header nav a {
     width: 10%;
     text-align: center;
     padding: 1% 0;
-    border: 2px solid navy;
-    background: orangered;
-    color: black;
+    border: 2px solid grey;
+    background: black;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: gold;
 }
 
 .subtitle {
     margin: 1% auto;
     text-align: center;
 }
+.header_blurb {
+    margin:0 auto 3%;
+    background: lightgrey;
+    width: 95%;
 
+}
 header p {
     padding: 1% 5%;
     text-align: center;
@@ -82,7 +90,7 @@ header p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2% 0;
+    margin: 2% 0 3%;
     text-align: left;
 }
 
@@ -112,10 +120,15 @@ footer {
     align-items: center;
 }
 
-footer button {
+footer a {
     display: inline-block; 
     width: 15%; 
     font-size: 2rem;
     padding: 2% 0; 
     border-radius: 10px; 
+    background: black; 
+    color: white;
+    text-align: center; 
+    text-decoration: underline; 
+    text-decoration-color: gold;
 }
