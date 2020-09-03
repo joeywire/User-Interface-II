@@ -1,1 +1,25 @@
-/* Add CSS styling here */
+/* Standard Formatting */
+* {
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+    h1 {
+        font-size: 6rem;
+    }
+    h2{
+        font-size: 4.8rem;
+    }
